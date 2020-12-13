@@ -1,20 +1,25 @@
 import React from "react";
 import './App.css';
-import Weather from "./Weather";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TopRow from "./TopRow";
+import MiddleRow from "./MiddleRow";
 
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <h1>
-          Hello  🙌🏻
-        </h1>
-        <Weather city="Paris" />
-      </header>
+    <div>
+      <div className="App">
+        <TopRow />
+      <MiddleRow />
+      </div>
+      <footer>
+    Open-source code by {" "}
+    <a hRef="https://github.com/lamoureuxmarie/react-weather-app" Target="_blank">Svitlana Kostyk</a>
+    </footer>
     </div>
   );
 }
 
-export default App;
+
+

@@ -1,0 +1,11 @@
+#this-day {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px auto;
+  font-size: 23px;
+  font-weight: 400;
+  border-radius: 16px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
