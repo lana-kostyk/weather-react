@@ -9,9 +9,9 @@ export default function MDLeft() {
           <div>
             <strong id="temperature-now">14</strong>°
             <span className="active">
-              <a id="celsius-link">C</a>
+              <a id="celsius-link" href="#0" >C</a>
               <span id="dash">|</span>
-              <a id="fahrenheit-link">F</a>
+              <a id="fahrenheit-link" href="#0">F</a>
             </span>
           </div>
           <div className="row">
