@@ -15,7 +15,7 @@ export default function App() {
       </div>
       <footer>
     Open-source code by {" "}
-    <a hRef="https://github.com/lamoureuxmarie/react-weather-app" Target="_blank">Svitlana Kostyk</a>
+    <a hRef="https://github.com/lana-kostyk/weather-react" Target="_blank">Svitlana Kostyk</a>
     </footer>
     </div>
   );
